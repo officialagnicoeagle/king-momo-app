@@ -1,5 +1,5 @@
 // API endpoint URLs
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://king-momo-api.vercel.app";
 
 const urls = {
   home: "/",
@@ -10,3 +10,4 @@ const urls = {
 
 export default BASE_URL;
 export { urls };
+
