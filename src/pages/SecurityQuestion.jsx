@@ -17,8 +17,14 @@ const schema = yup.object().shape({
 
 const securityQuestions = [
   "What was the name of your first pet?",
+  "What city were you born in?",
+  "What is the name of the street where you grew up?",
   "What was your childhood nickname?",
   "What was the make and model of your first car?",
+  "What was the name of your favorite teacher in school?",
+  "In what city did your parents meet?",
+  "What is the name of your favorite childhood friend?",
+  "What was the name of the first school you attended?",
 ];
 
 const SecurityQuestions = () => {
